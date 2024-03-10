@@ -1,7 +1,6 @@
 import React from "react";
 import Event from "./Event";
 
-
 const Calendar = () => {
     return (
         <div className="Calendar">
@@ -17,19 +16,109 @@ const Calendar = () => {
                         <th>Friday</th>
                         <th>Saturday</th>
                     </tr>
-                    <tbody>
-                        <tr>
-                            <td className="time">8am 9am 10am 11am 12pm 1pm 2pm 3pm 4pm 5pm 6pm 7pm 8pm 9pm 10pm 11pm</td>
-                            <Event />
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
                 </thead>
+                <tbody>
+                    <tr>
+                        <td className="time">8 am</td>
+                        <td><Event event='Fancy Dinner 🎩' color='green'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">9 am</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">10 am</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">11 am</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">12 pm</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">1 pm</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">2 pm</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">3 pm</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">4 pm</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td className="time">5 pm</td>
+                        <td></td>
+                        <td><Event event = 'Code'/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     )

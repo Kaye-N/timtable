@@ -1,11 +1,13 @@
 import React from "react";
+import Event from "./Event"; // Assuming the file containing the Event component is in the same directory
 
-const Event = (props) =>{
-    return(
-        <td className="time">
-            <h5>Test Event Name</h5>
-        </td>
-    )
-}
+const App = () => {
+  return (
+    <div>
+      <h1>My App</h1>
+      <Event event="Some Event" />
+    </div>
+  );
+};
 
-export default Event;
+export default App;
